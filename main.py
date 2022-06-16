@@ -1,6 +1,7 @@
+import key
 from telegram.ext import *
 
-TOKEN = "5473247812:AAHNJvy9q-nlwFFUwFhBE8dNWgtMhCjW3iI"
+TOKEN = key.TOKEN 
 
 
 updater = Updater(TOKEN, use_context=True)
